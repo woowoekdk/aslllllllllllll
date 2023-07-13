@@ -57,7 +57,7 @@ DEVS = [5159123009]
 @sython1.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython1(JoinChannelRequest("@ililililliliiil"))
+        await sython1(JoinChannelRequest("@ilililililililillilli"))
     except BaseException:
         pass
 
@@ -65,7 +65,7 @@ async def join_channel(event):
 @sython2.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython2(JoinChannelRequest("@ililililliliiil"))
+        await sython2(JoinChannelRequest("@ilililililililillilli"))
     except BaseException:
         pass
 
@@ -73,7 +73,7 @@ async def join_channel(event):
 @sython3.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython3(JoinChannelRequest("@ililililliliiil"))
+        await sython3(JoinChannelRequest("@ilililililililillilli"))
     except BaseException:
         pass
         
@@ -81,7 +81,7 @@ async def join_channel(event):
 @sython4.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython4(JoinChannelRequest("@ililililliliiil"))
+        await sython4(JoinChannelRequest("@ilililililililillilli"))
     except BaseException:
         pass
                 
@@ -89,7 +89,7 @@ async def join_channel(event):
 @sython5.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython5(JoinChannelRequest("@ililililliliiil"))
+        await sython5(JoinChannelRequest("@ilililililililillilli"))
     except BaseException:
         pass
 
