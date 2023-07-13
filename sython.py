@@ -3141,36 +3141,36 @@ async def OwnerStart(event):
     usercht = event.pattern_match.group(1)
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
-        sendy = await sython1.send_message(event.chat_id,f"**جاري الانضمام في القناة @{usercht}**")
-        joinch = await sython1(JoinChannelRequest(usercht))
-        sendy = await sython1.send_message(event.chat_id,f"**تم الانضمام في القناة @{usercht}**")
+        sendy = await sython2.send_message(event.chat_id,f"**جاري الانضمام في القناة @{usercht}**")
+        joinch = await sython2(JoinChannelRequest(usercht))
+        sendy = await sython2.send_message(event.chat_id,f"**تم الانضمام في القناة @{usercht}**")
 
 @sython3.on(events.NewMessage(outgoing=False, pattern='/jn (.*)'))
 async def OwnerStart(event):
     usercht = event.pattern_match.group(1)
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
-        sendy = await sython1.send_message(event.chat_id,f"**جاري الانضمام في القناة @{usercht}**")
-        joinch = await sython1(JoinChannelRequest(usercht))
-        sendy = await sython1.send_message(event.chat_id,f"**تم الانضمام في القناة @{usercht}**")
+        sendy = await sython3.send_message(event.chat_id,f"**جاري الانضمام في القناة @{usercht}**")
+        joinch = await sython3(JoinChannelRequest(usercht))
+        sendy = await sython3.send_message(event.chat_id,f"**تم الانضمام في القناة @{usercht}**")
 
 @sython4.on(events.NewMessage(outgoing=False, pattern='/jn (.*)'))
 async def OwnerStart(event):
     usercht = event.pattern_match.group(1)
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
-        sendy = await sython1.send_message(event.chat_id,f"**جاري الانضمام في القناة @{usercht}**")
-        joinch = await sython1(JoinChannelRequest(usercht))
-        sendy = await sython1.send_message(event.chat_id,f"**تم الانضمام في القناة @{usercht}**")
+        sendy = await sython4.send_message(event.chat_id,f"**جاري الانضمام في القناة @{usercht}**")
+        joinch = await sython4(JoinChannelRequest(usercht))
+        sendy = await sython4.send_message(event.chat_id,f"**تم الانضمام في القناة @{usercht}**")
 
 @sython5.on(events.NewMessage(outgoing=False, pattern='/jn (.*)'))
 async def OwnerStart(event):
     usercht = event.pattern_match.group(1)
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
-        sendy = await sython1.send_message(event.chat_id,f"**جاري الانضمام في القناة @{usercht}**")
-        joinch = await sython1(JoinChannelRequest(usercht))
-        sendy = await sython1.send_message(event.chat_id,f"**تم الانضمام في القناة @{usercht}**")
+        sendy = await sython5.send_message(event.chat_id,f"**جاري الانضمام في القناة @{usercht}**")
+        joinch = await sython5(JoinChannelRequest(usercht))
+        sendy = await sython5.send_message(event.chat_id,f"**تم الانضمام في القناة @{usercht}**")
 
 
 print("💠 Sython Userbot Running 💠")
