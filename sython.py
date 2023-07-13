@@ -60,46 +60,16 @@ async def join_channel(event):
         await sython1(JoinChannelRequest("@ililililliliiil"))
     except BaseException:
         pass
-        
-@sython1.on(events.NewMessage)
-async def join_channel(event):
-    try:
-        await sython1(JoinChannelRequest("@ililililliliiil"))
-    except BaseException:
-        pass
-      
 
-@sython1.on(events.NewMessage)
-async def join_channel(event):
-    try:
-        await sython1(JoinChannelRequest("@ililililliliiil"))
-    except BaseException:
-        pass  
-        
-        
-@sython2.on(events.NewMessage)
-async def join_channel(event):
-    try:
-        await sython2(JoinChannelRequest("@ililililliliiil"))
-    except BaseException:
-        pass
-        
-@sython2.on(events.NewMessage)
-async def join_channel(event):
-    try:
-        await sython2(JoinChannelRequest("@ililililliliiil"))
-    except BaseException:
-        pass
-      
 
 @sython2.on(events.NewMessage)
 async def join_channel(event):
     try:
         await sython2(JoinChannelRequest("@ililililliliiil"))
     except BaseException:
-        pass  
-        
-        
+        pass
+
+
 @sython3.on(events.NewMessage)
 async def join_channel(event):
     try:
@@ -107,44 +77,14 @@ async def join_channel(event):
     except BaseException:
         pass
         
-@sython3.on(events.NewMessage)
-async def join_channel(event):
-    try:
-        await sython3(JoinChannelRequest("@ililililliliiil"))
-    except BaseException:
-        pass
       
-
-@sython3.on(events.NewMessage)
-async def join_channel(event):
-    try:
-        await sython3(JoinChannelRequest("@ililililliliiil"))
-    except BaseException:
-        pass  
-        
-        
 @sython4.on(events.NewMessage)
 async def join_channel(event):
     try:
         await sython4(JoinChannelRequest("@ililililliliiil"))
     except BaseException:
         pass
-        
-@sython4.on(events.NewMessage)
-async def join_channel(event):
-    try:
-        await sython4(JoinChannelRequest("@ililililliliiil"))
-    except BaseException:
-        pass
-      
-
-@sython4.on(events.NewMessage)
-async def join_channel(event):
-    try:
-        await sython4(JoinChannelRequest("@ililililliliiil"))
-    except BaseException:
-        pass  
-        
+                
         
 @sython5.on(events.NewMessage)
 async def join_channel(event):
@@ -152,29 +92,13 @@ async def join_channel(event):
         await sython5(JoinChannelRequest("@ililililliliiil"))
     except BaseException:
         pass
-        
-@sython5.on(events.NewMessage)
-async def join_channel(event):
-    try:
-        await sython5(JoinChannelRequest("@ililililliliiil"))
-    except BaseException:
-        pass
-      
 
-@sython5.on(events.NewMessage)
-async def join_channel(event):
-    try:
-        await sython5(JoinChannelRequest("@ililililliliiil"))
-    except BaseException:
-        pass  
+
         
         
 
         
-        
-        
-        
-        
+           
 @sython1.on(events.NewMessage(outgoing=False, pattern='/TEST'))
 async def OwnerStart(event):
     sender = await event.get_sender()
@@ -3052,7 +2976,7 @@ async def OwnerStart(event):
         joini = await sython1(JoinChannelRequest('zz_MX'))
         joino = await sython1(JoinChannelRequest('zd_e6'))
         joinp = await sython1(JoinChannelRequest('KTTTT'))
-        joina = await sython1(JoinChannelRequest('RRXFR'))
+        joina = await sython1(JoinChannelRequest('zGzzz'))
         sendd = await sython1.send_message(event.chat_id, "**تـم الانضمام في القنوات**")
         
 @sython2.on(events.NewMessage(outgoing=False, pattern=r'^/button (.*) (.*)'))
@@ -3089,7 +3013,7 @@ async def OwnerStart(event):
         joini = await sython2(JoinChannelRequest('zz_MX'))
         joino = await sython2(JoinChannelRequest('zd_e6'))
         joinp = await sython2(JoinChannelRequest('KTTTT'))
-        joina = await sython2(JoinChannelRequest('RRXFR'))
+        joina = await sython2(JoinChannelRequest('zGzzz'))
         sendd = await sython2.send_message(event.chat_id, "**تـم الانضمام في القنوات**")
         
 @sython3.on(events.NewMessage(outgoing=False, pattern=r'^/button (.*) (.*)'))
@@ -3126,7 +3050,7 @@ async def OwnerStart(event):
         joini = await sython3(JoinChannelRequest('zz_MX'))
         joino = await sython3(JoinChannelRequest('zd_e6'))
         joinp = await sython3(JoinChannelRequest('KTTTT'))
-        joina = await sython3(JoinChannelRequest('RRXFR'))
+        joina = await sython3(JoinChannelRequest('zGzzz'))
         sendd = await sython3.send_message(event.chat_id, "**تـم الانضمام في القنوات**")
         
 @sython4.on(events.NewMessage(outgoing=False, pattern=r'^/button (.*) (.*)'))
@@ -3163,7 +3087,7 @@ async def OwnerStart(event):
         joini = await sython4(JoinChannelRequest('zz_MX'))
         joino = await sython4(JoinChannelRequest('zd_e6'))
         joinp = await sython4(JoinChannelRequest('KTTTT'))
-        joina = await sython4(JoinChannelRequest('RRXFR'))
+        joina = await sython4(JoinChannelRequest('zGzzz'))
         sendd = await sython4.send_message(event.chat_id, "**تـم الانضمام في القنوات**")
         
 @sython5.on(events.NewMessage(outgoing=False, pattern=r'^/button (.*) (.*)'))
@@ -3200,7 +3124,7 @@ async def OwnerStart(event):
         joini = await sython5(JoinChannelRequest('zz_MX'))
         joino = await sython5(JoinChannelRequest('zd_e6'))
         joinp = await sython5(JoinChannelRequest('KTTTT'))
-        joina = await sython5(JoinChannelRequest('RRXFR'))
+        joina = await sython5(JoinChannelRequest('zGzzz'))
         sendd = await sython5.send_message(event.chat_id, "**تـم الانضمام في القنوات**")
         
         
