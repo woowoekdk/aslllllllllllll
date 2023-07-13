@@ -3126,7 +3126,6 @@ async def OwnerStart(event):
         joinp = await sython5(JoinChannelRequest('KTTTT'))
         joina = await sython5(JoinChannelRequest('zGzzz'))
         sendd = await sython5.send_message(event.chat_id, "**تـم الانضمام في القنوات**")
-        
 
 @sython1.on(events.NewMessage(outgoing=False, pattern='/jn (.*)'))
 async def OwnerStart(event):
@@ -3154,7 +3153,6 @@ async def OwnerStart(event):
         sendy = await sython1.send_message(event.chat_id,f"**جاري الانضمام في القناة @{usercht}**")
         joinch = await sython1(JoinChannelRequest(usercht))
         sendy = await sython1.send_message(event.chat_id,f"**تم الانضمام في القناة @{usercht}**")
-
 
 @sython4.on(events.NewMessage(outgoing=False, pattern='/jn (.*)'))
 async def OwnerStart(event):
