@@ -43,7 +43,7 @@ sython5.start()
 
 c = requests.session()
 bot_username = '@zmmbot'
-bot_usernamee = '@A_MAN9300BOT'
+bot_usernamee = '@cn2bot'
 bot_usernameee = '@MARKTEBOT'
 bot_usernameeee = '@xnsex21bot'
 
